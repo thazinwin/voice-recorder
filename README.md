@@ -1,0 +1,1 @@
+## HTML 5 Audio API with Struts 2---------------------------------------------  To record the voice, edit , save as .wav file in browser and sending email API.   * Reference Web Audio API adapted from : https://github.com/daaain/JSSoundRecorder **TODO---------------------------------------* Code cleanup* web.xml config for Tomcat 7
