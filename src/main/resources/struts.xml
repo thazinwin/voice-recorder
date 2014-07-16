@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+	<constant name="struts.devMode" value="false" />
+ 	<package name="eco" namespace="/eco" extends="struts-default">
+		<global-results>
+			<result name="error">pages/error.jsp</result>
+		</global-results>
+ 		<action name="global_*" class="com.eco.action.GlobalAction" method="{1}">
+			<result name="record">pages/index.jsp</result>
+			<result name="sendEmail">pages/index.jsp</result>
+		</action>
+	</package>
+</struts>
